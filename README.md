@@ -44,7 +44,7 @@ If you want to add more epochs to a pretrained model (submitted along), just add
 `see_generated` function will print saved images from the generator training. The default sample size is 24, you can change  it in the `train` function if you want to be able to see more images. `see_generated` will by default print images generated after the last epoch (it's what -1 stands for). If you want to see the development while training you can change the number that corresponds to the number of epochs in the call for this function. Example:
 
 ``` python
-see_generated(0, dogs) # to see images gerenated after epoch 0
+see_generated(0, dogs) # to see images generated after epoch 0
 ```
 
 ## GENERAL NOTES
